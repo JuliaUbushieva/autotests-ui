@@ -7,7 +7,7 @@ with sync_playwright() as playwright:
 
     # Going to the login page
     page.goto(
-        "https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login",
+        'https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login',
         wait_until='networkidle' # Waiting for the full page loading
     )
 
