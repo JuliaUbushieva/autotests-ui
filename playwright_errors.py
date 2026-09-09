@@ -10,12 +10,12 @@ with sync_playwright() as playwright:
     )
 
     # Trying to verify that a non-existent locator is visible on the page
-    # unknown = page.locator('#unknown')
-    # expect(unknown).to_be_visible()
+    unknown = page.locator('#unknown')
+    expect(unknown).to_be_visible()
 
     # Trying to enter text into the Login button
-    # login_button = page.get_by_test_id('login-page-login-button')
-    # login_button.fill('unknown')
+    login_button = page.get_by_test_id('login-page-login-button')
+    login_button.fill('unknown')
 
     # Trying to change the header text
     page.evaluate(
