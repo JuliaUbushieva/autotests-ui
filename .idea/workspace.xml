@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17feaeb0-3258-4d9f-aeb6-9ecf74b4b67f" name="Changes" comment="Added JS code file">
-      <change afterPath="$PROJECT_DIR$/playwright_registration_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright_errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_errors.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
