@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17feaeb0-3258-4d9f-aeb6-9ecf74b4b67f" name="Changes" comment="Added JS code file">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_authorization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pytest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_pytest.test_first_try.executor": "Run",
-    "Python.. └── playwright_js.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.playwright_errors.executor": "Run",
-    "Python.playwright_events.executor": "Run",
-    "Python.playwright_hover.executor": "Run",
-    "Python.playwright_keyboard.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_courses.test_empty_courses_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pytest.test_first_try.executor&quot;: &quot;Run&quot;,
+    &quot;Python.. └── playwright_js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_errors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_events.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_hover.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_keyboard.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_pytest.test_first_try">
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_courses.test_empty_courses_list">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
@@ -146,26 +154,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playwright_keyboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_courses.test_empty_courses_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright_keyboard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_courses.test_empty_courses_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_pytest.test_first_try" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list" />
         <item itemvalue="Python tests.Python tests for test_pytest.test_first_try" />
         <item itemvalue="Python.playwright_errors" />
         <item itemvalue="Python.playwright_events" />
         <item itemvalue="Python.playwright_hover" />
-        <item itemvalue="Python.playwright_keyboard" />
       </list>
     </recent_temporary>
   </component>
